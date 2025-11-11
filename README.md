@@ -15,7 +15,7 @@ O sistema mede a distância da superfície da água até o fundo do aquário uti
 5. Envia dados ao ThingSpeak.  
 6. Envia alertas automáticos ao Telegram quando o nível atinge valores críticos.
 
-> **[INSIRA AQUI UMA IMAGEM GERAL DO PROJETO]**
+> <img width="514" height="263" alt="Captura de tela 2025-11-11 204127" src="https://github.com/user-attachments/assets/39745243-1005-432c-b6d9-5a4962af9a2b" />
 
 ---
 
@@ -42,8 +42,7 @@ O sistema mede a distância da superfície da água até o fundo do aquário uti
 | Resistores (220–330 Ω) | 3 | Proteção dos LEDs |
 | Jumpers | - | Ligações elétricas |
 
-> **[INSIRA AQUI UMA IMAGEM DO PROTÓTIPO MONTADO]**
-
+> <img width="975" height="499" alt="Captura de tela 2025-11-11 203848" src="https://github.com/user-attachments/assets/8800dbce-8e33-420e-8379-4a0abe0f9573" />
 ---
 
 ## Ligações (Pinagem)
