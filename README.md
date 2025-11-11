@@ -61,10 +61,46 @@ O sistema mede a distância da superfície da água até o fundo do aquário uti
 | LED Amarelo | Ânodo via resistor | GPIO 26 |
 | LED Verde | Ânodo via resistor | GPIO 27 |
 
-> **[INSIRA AQUI O DIAGRAMA ELÉTRICO OU ESQUEMÁTICO]**
+---
+
+## Dependências (Arduino IDE)
+
+Instale as seguintes bibliotecas:
+
+- LiquidCrystal_I2C  
+- SPIFFS  
+- WiFi  
+- WiFiClientSecure  
+- HTTPClient  
+- NTPClient  
+- UniversalTelegramBot  
+- ArduinoJson  
+
+**Placa:** ESP32 Dev Module  
+**Porta:** USB conectada ao ESP32  
 
 ---
 
-## Estrutura do Repositório
+## Configurações no Código
+
+```cpp
+bool modoSimulado = true; // true = simulação (Wokwi) | false = real (Wi-Fi)
+
+const float ALTURA_TANQUE = 50.0;
+const float NIVEL_IDEAL   = 45.0;
+
+const unsigned long INTERVALO = 10000;
+
+const int TRIG = 5, ECHO = 18;
+const int LED_VERMELHO = 25, LED_AMARELO = 26, LED_VERDE = 27;
+
+const char* ssid = "SEU_WIFI";
+const char* password = "SUA_SENHA";
+
+const char* server = "http://api.thingspeak.com/update";
+String apiKey = "SUA_WRITE_API_KEY";
+
+#define BOT_TOKEN "SEU_BOT_TOKEN"
+#define CHAT_ID   "SEU_CHAT_ID"
 
 
