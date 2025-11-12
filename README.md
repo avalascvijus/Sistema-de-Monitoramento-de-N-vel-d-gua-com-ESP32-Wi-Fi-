@@ -103,6 +103,8 @@ String apiKey = "SUA_WRITE_API_KEY";
 #define BOT_TOKEN "SEU_BOT_TOKEN"
 #define CHAT_ID   "SEU_CHAT_ID"
 
+---
+
 ## Demonstração de Resultados
 
 A seguir estão os registros visuais do funcionamento completo do sistema, incluindo leituras no LCD, comunicação com o ThingSpeak e mensagens de alerta enviadas pelo bot do Telegram.
