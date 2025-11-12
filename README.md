@@ -103,4 +103,34 @@ String apiKey = "SUA_WRITE_API_KEY";
 #define BOT_TOKEN "SEU_BOT_TOKEN"
 #define CHAT_ID   "SEU_CHAT_ID"
 
+## Demonstração de Resultados
+
+A seguir estão os registros visuais do funcionamento completo do sistema, incluindo leituras no LCD, comunicação com o ThingSpeak e mensagens de alerta enviadas pelo bot do Telegram.
+
+### Funcionamento no Simulador (Wokwi)
+
+O projeto em simulação mostra a leitura de nível sendo exibida no display LCD e os LEDs correspondentes às faixas de nível de água.
+
+><img width="1081" height="750" alt="Captura de tela 2025-11-11 202759" src="https://github.com/user-attachments/assets/fa737ec1-3a2c-4ff1-bbef-74098ef0cf05" />
+
+### Comunicação com ThingSpeak
+
+Cada leitura é enviada automaticamente ao ThingSpeak, como mostrado no console do ESP32.  
+><img width="1326" height="816" alt="image" src="https://github.com/user-attachments/assets/e061312c-48d4-42d0-a406-a2420108eb73" />
+
+### Alertas via Telegram
+
+O sistema envia mensagens automáticas ao Telegram conforme o nível de água atinge determinadas faixas:
+
+**1. Alerta Crítico (nível muito baixo)**  
+><img width="439" height="189" alt="Captura de tela 2025-11-11 202837" src="https://github.com/user-attachments/assets/0b446740-afe5-4770-b00b-eb1a7b7a84b8" />
+
+**2. Nível Normalizado**  
+><img width="453" height="164" alt="Captura de tela 2025-11-11 202902" src="https://github.com/user-attachments/assets/5d560c96-27f0-4c1b-afcb-ab22d5f55a3b" />
+
+**3. Alerta de Atenção (nível intermediário)**  
+><img width="510" height="189" alt="Captura de tela 2025-11-11 203822" src="https://github.com/user-attachments/assets/7d7e594a-dfa5-4ac7-9e46-fb52c1deb01a" />
+
+Essas mensagens são geradas automaticamente e incluem hora, altura da água e nível percentual calculado no momento da medição.
+
 
