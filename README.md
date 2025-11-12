@@ -137,4 +137,7 @@ O sistema envia mensagens automáticas ao Telegram conforme o nível de água at
 
 Essas mensagens são geradas automaticamente e incluem hora, altura da água e nível percentual calculado no momento da medição.
 
+><img width="1427" height="876" alt="image" src="https://github.com/user-attachments/assets/a83fb4f1-1528-4819-9351-bfa1f2bf925e" />
+
+
 
