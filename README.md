@@ -139,5 +139,22 @@ Essas mensagens são geradas automaticamente e incluem hora, altura da água e n
 
 ><img width="1427" height="876" alt="image" src="https://github.com/user-attachments/assets/a83fb4f1-1528-4819-9351-bfa1f2bf925e" />
 
+## Referências de Projetos Relacionados
+
+- **anubhav1433 / Water-Monitoring-System** — Projeto ESP32 + HC-SR04 + WiFi para monitoramento de nível d’água.  
+  Repositório: https://github.com/anubhav1433/Water-Monitoring-System :contentReference[oaicite:0]{index=0}
+
+- **abderrahman-laid / ESP32-Water-Monitoring-System** — Sistema IoT de monitoramento de nível líquido com alertas e interface gráfica/web.  
+  Repositório: https://github.com/abderrahman-laid/ESP32-Water-Monitoring-System :contentReference[oaicite:1]{index=1}
+
+- **vinitshahdeo / Water-Monitoring-System** — Projeto IoT de monitoramento de água com expansão para visualização web e lógica de alertas.  
+  Repositório: https://github.com/vinitshahdeo/Water-Monitoring-System :contentReference[oaicite:2]{index=2}
+
+- **Pro-282 / IoT-Water-Level-Monitor-and-Control** — Sistema com ESP32 que monitora nível de água e controla bomba/acionamento conforme medições.  
+  Repositório: https://github.com/Pro-282/IoT-Water-Level-Monitor-and-Control :contentReference[oaicite:3]{index=3}
+
+- **hbh7 / WaterMonitoringSystem** — Projeto voltado ao monitoramento de consumo e uso de água, integrando sensores de fluxo e dashboard (InfluxDB + Grafana).  
+  Repositório: https://github.com/hbh7/WaterMonitoringSystem :contentReference[oaicite:4]{index=4}
+
 
 
