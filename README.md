@@ -1,5 +1,6 @@
 # Sistema de Monitoramento de Nível d’Água para Aquários (ESP32 + LCD + HC-SR04 + ThingSpeak + Telegram)
 
+Integrantes: Adrielle Valascvijus Fernandes, Lavínia Lopes de Lana e Michael Douglas Santos Costa
 Monitoramento automático do nível de água de um aquário utilizando ESP32, sensor ultrassônico HC-SR04, display LCD I²C, LEDs indicadores e integração com ThingSpeak e Telegram.
 
 ---
